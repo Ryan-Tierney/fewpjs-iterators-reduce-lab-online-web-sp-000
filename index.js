@@ -6,4 +6,5 @@ function batteries(batterBatches) {
   batteryBatches.forEach(batterBatch => { 
     totalBatteries += batteryBatches;
   });
+  return totalBatteries
 }
